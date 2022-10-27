@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Register Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="body-container">
+    <form id='form'>
+      <div class="image-container">
+        <img src="edojublogo.png" alt="" width="150px">
+      </div>
+      <div>
+        <label>First Name:</label>
+        <input type="text" id="firstname" placeholder="firstname" required>
+      </div>
+      <div>
+        <label>Last Name:</label>
+        <input type="text" id="lastname" placeholder="lastname" required>
+      </div>
+      <div>
+        <label>Phone Number:</label>
+        <input type="number" id="phone number" placeholder="phone number" required>
+      </div>
+      <div>
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="email" required>
+      </div>
+      <div>
+        <label>Gender:</label>
+        <select id="select" required>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+      <label>Date Of Birth:</label>
+      <div>
+        <input type="date" id="date" required>
+      </div>
+      <div>
+        <label>Favorite Color</label>
+        <input type="color" id="color" required>
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="password" id="password" placeholder="password" required>
+      </div>
+      <div>
+        <button>Sign Up</button>
+      </div>
+      <section>
+        <small>
+          Already have an account? <a href="login.html">Sign In</a>
+        </small>
+      </section>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
